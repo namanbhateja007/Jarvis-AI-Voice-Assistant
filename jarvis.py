@@ -17,7 +17,7 @@ newsapi = "YOUR_NEWS_API_KEY"
 
 
 def aiProcessor(command):
-    client = genai.Client(api_key="AQ.Ab8RN6L9crADkYwaVDVM57PeB3Y9Hglj98N64TxXpxGxvVDJVg")
+    client = genai.Client(api_key="YOUR_API_KEY")
 
     chat = client.chats.create(
         model="gemini-3.6-flash"
